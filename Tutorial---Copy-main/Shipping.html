@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Addresses</title>
+    <link rel="stylesheet" href="./styles/styleship.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Shipping Addresses</h1>
+
+        <div class="main-content">
+            <!-- Container for addresses -->
+            <div class="address-container">
+                <h2>Available Shipping Addresses</h2>
+                <div id="address-list" class="address-list">
+                    <!-- List of addresses will be injected here -->
+                </div>
+                <button id="add-address" class="add-address-button">Add New Address</button>
+            </div>
+
+            <!-- Container for total cost -->
+            <div class="total-cost-container">
+                <h2>Total Cost of Products</h2>
+                <p id="total-cost">$0.00</p>
+            </div>
+        </div>
+
+        <div id="selected-address" class="selected-address">
+            <!-- Selected address details will appear here -->
+        </div>
+        <script src="./javas/Shipping.js"></script>
+    </div>
+</body>
+</html>
